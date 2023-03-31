@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 
 //Components
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { WalletConnectComponent } from './components/wallet-connect/wallet-connect.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    WalletConnectComponent
   ],
   imports: [
     BrowserModule,
