@@ -1,4 +1,32 @@
+.container-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bg-primary {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.inputs-container {
+  max-width: 1000px;
+}
+
 .welcome {
   margin-top: 20px;
   text-align: center;
+}
+
+.btn {
+  margin-top: 32px;
+}
+
+.questions {
+  margin-top: 64px;
 }
