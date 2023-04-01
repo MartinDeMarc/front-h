@@ -9,20 +9,20 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { WalletConnectComponent } from './components/wallet-connect/wallet-connect.component';
 import { SinginComponent } from './components/singin/singin.component';
 import { UserComponent } from './components/user/user.component';
-
+import { InputText } from './components/input-text/input-text.component';
+import { InputFile } from './components/input-file/input-file.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     WalletConnectComponent,
     SinginComponent,
-    UserComponent
+    UserComponent,
+    InputText,
+    InputFile,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -12,11 +12,11 @@ const routes: Routes = [
   { path: 'signin', component: SinginComponent },
   { path: 'user', component: UserComponent },
   { path: 'wallet', component: WalletConnectComponent },
-  { path: '**', redirectTo: '', pathMatch: 'full'}
+  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
