@@ -1,0 +1,9 @@
+.container-input-file {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-group {
+  max-width: 800px;
+}
