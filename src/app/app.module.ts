@@ -3,14 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
 
 //Components
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { WalletConnectComponent } from './components/wallet-connect/wallet-connect.component';
 import { SinginComponent } from './components/singin/singin.component';
 import { UserComponent } from './components/user/user.component';
-import { InputText } from './components/input-text/input-text.component';
-import { InputFile } from './components/input-file/input-file.component';
 import { Accordion } from './components/accordion/accordion.component';
 
 @NgModule({
@@ -20,11 +19,9 @@ import { Accordion } from './components/accordion/accordion.component';
     WalletConnectComponent,
     SinginComponent,
     UserComponent,
-    InputText,
-    InputFile,
     Accordion,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
