@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 //Components
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { WalletConnectComponent } from './components/wallet-connect/wallet-connect.component';
+import { SinginComponent } from './components/singin/singin.component';
+import { UserComponent } from './components/user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    WalletConnectComponent
+    WalletConnectComponent,
+    SinginComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,

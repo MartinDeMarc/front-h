@@ -16,6 +16,9 @@ export class NavbarComponent implements OnInit {
     this.formModal = new window.bootstrap.Modal(document.getElementById("exampleModal"))
   }
 
+
+async handleAuth() {}
+
   openModal() {
     this.formModal.show()
   }

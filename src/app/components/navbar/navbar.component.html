@@ -36,8 +36,11 @@
   </div>
 </nav>
 
+<div class="d-flex justify-content-center m-3"> <h3> <strong>Bienvenido a la aplicación de denuncias viales de la Provincia de Córdoba</strong></h3>
+<p>Aquí podrás hacer tus denuncias para que juntos mejoremos la Ciudad. </p></div>
+
 <div class="d-flex justify-content-center m-3">
-  <img src="../../../assets/imgPGN.png" alt="as" style="width: 250px;">
+  <img src="../../../assets/Untitled_design__7_-removebg-preview.png" alt="as" style="width: 250px;">
 </div>
 
 <div class="d-flex justify-content-center">
@@ -58,13 +61,12 @@
         <div class="d-grid gap-2">
           <button   class="btn btn-lg btn-primary m-3" type="button"><img style="width: 40px;" src="../../../assets/metamask.svg" alt=""> Wallet Connect</button>
 
-          <button class="btn btn-lg btn-primary m-3" type="button" ><img style="width: 40px;" src="../../../assets/metamask.svg" alt=""> Metamask Connect</button>
+          <button class="btn btn-lg btn-primary m-3" type="button" (click)="handleAuth()" ><img style="width: 40px;" src="../../../assets/metamask.svg" alt=""> Metamask Connect</button>
         </div>
 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
