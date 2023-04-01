@@ -11,6 +11,8 @@ import { SinginComponent } from './components/singin/singin.component';
 import { UserComponent } from './components/user/user.component';
 import { InputText } from './components/input-text/input-text.component';
 import { InputFile } from './components/input-file/input-file.component';
+import { Accordion } from './components/accordion/accordion.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +22,7 @@ import { InputFile } from './components/input-file/input-file.component';
     UserComponent,
     InputText,
     InputFile,
+    Accordion,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
