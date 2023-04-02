@@ -4,10 +4,12 @@
 
 .home {
   background-color: #105d38 !important;
+  height: 60vh;
 }
 
 .carousel {
   background-color: #105d38 !important;
+  height: 40vh;
 }
 
 .title {
