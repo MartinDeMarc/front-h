@@ -8,7 +8,6 @@ import { FormsModule } from '@angular/forms';
 //Components
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { WalletConnectComponent } from './components/wallet-connect/wallet-connect.component';
-import { SinginComponent } from './components/singin/singin.component';
 import { UserComponent } from './components/user/user.component';
 import { Accordion } from './components/accordion/accordion.component';
 
@@ -17,7 +16,6 @@ import { Accordion } from './components/accordion/accordion.component';
     AppComponent,
     NavbarComponent,
     WalletConnectComponent,
-    SinginComponent,
     UserComponent,
     Accordion,
   ],
