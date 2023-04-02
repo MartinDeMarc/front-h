@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #105d38 !important;
+}
+
+.home {
+  background-color: #105d38 !important;
+}
+
+.carousel {
+  background-color: #105d38 !important;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  padding: 30px;
+}
+
+.subtitle {
+  text-align: center;
+}
