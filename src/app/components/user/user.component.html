@@ -5,6 +5,49 @@
       Connect
     </button>
   </div>
+  <h1 class="bg-primary">
+    <button
+      id="btnHome"
+      routerLink="/"
+      type="button"
+      class="btn btn-success btn-sm"
+    >
+      Home
+    </button>
+    Bienvenido! Acá podrá hacer su Crypto Multa
+  </h1>
+  <form>
+    <fieldset class="container-input-text">
+      <div class="form-group">
+        <label for="description" class="form-label mt-4"
+          >Introduzca la descripcion de su Crypto Multa</label
+        >
+        <textarea
+          required
+          class="form-control"
+          id="description"
+          name="description"
+          [(ngModel)]="description"
+          rows="6"
+          data-dl-input-translation="true"
+        ></textarea>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div class="form-group">
+        <label for="formFile" class="form-label mt-4"
+          >Introduzca su foto multa aqui! :)</label
+        >
+        <input
+          class="form-control"
+          type="file"
+          id="formFile"
+          name="formFile"
+          [(ngModel)]="formFile"
+        />
+      </div>
+    </fieldset>
+  </form>
 
   <div *ngIf="session">
     <h3>User session:</h3>
